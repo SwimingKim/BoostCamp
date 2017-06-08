@@ -13,13 +13,13 @@ class InoutManager {
     // Users/사용자계정
     var path : NSString {
         get {
-            let tempDirectory : [String] = NSTemporaryDirectory().characters.split(separator: "/").map(String.init)
-            return ("/" + tempDirectory[0] + "/" + tempDirectory[1]) as NSString
+            return NSHomeDirectory() as NSString
         }
     }
     var data : Data?
     
     func readFile() -> Bool {
+
         // Users/사용자계정/students.json
         let readFile = "students.json"
         let readPath = self.path.appendingPathComponent(readFile)
@@ -64,9 +64,6 @@ class InoutManager {
             }
         }
         let average = sum / Double(writeData.count)
-        
-        var ss : String = "steve      "
-        NSLog("\(ss.characters.count)")
         
         // 결과 출력을 위한 텍스트
         var contents = "성적결과표"
