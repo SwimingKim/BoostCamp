@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "bccceee417f1479a8673ad800ccb9b4a"
+build_time: [550250783, 90007000]
+inputs:
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/InoutManager.swift": [550248169, 0]
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/main.swift": [550248097, 0]
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/Students.swift": [550248177, 0]

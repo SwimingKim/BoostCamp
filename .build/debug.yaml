@@ -1,0 +1,31 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.swiftmodule","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young"]
+  "main": ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.swiftmodule","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young"]
+default: "main"
+commands: 
+  "<Grade_kim_su_young.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Grade_kim_su_young"
+    module-output-path: "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.swiftmodule"
+    inputs: ["/Users/suyoung/Documents/Git/BoostCamp/Sources/InoutManager.swift","/Users/suyoung/Documents/Git/BoostCamp/Sources/Students.swift","/Users/suyoung/Documents/Git/BoostCamp/Sources/main.swift"]
+    outputs: ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.swiftmodule"]
+    import-paths: ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug"]
+    temps-path: "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build"
+    objects: ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-cache-path","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/ModuleCache"]
+    sources: ["/Users/suyoung/Documents/Git/BoostCamp/Sources/InoutManager.swift","/Users/suyoung/Documents/Git/BoostCamp/Sources/main.swift","/Users/suyoung/Documents/Git/BoostCamp/Sources/Students.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<Grade_kim_su_young.exe>":
+    tool: shell
+    description: "Linking /Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young"
+    inputs: ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o"]
+    outputs: ["/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L/Users/suyoung/Documents/Git/BoostCamp/.build/debug","-o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young","-emit-executable","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o","/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o"]
+

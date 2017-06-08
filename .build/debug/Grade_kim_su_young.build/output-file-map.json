@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/master.swiftdeps"
+  },
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/InoutManager.swift": {
+    "dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.d",
+    "object": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swift.o",
+    "swiftmodule": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/InoutManager.swiftdeps"
+  },
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/main.swift": {
+    "dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.d",
+    "object": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swift.o",
+    "swiftmodule": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/main.swiftdeps"
+  },
+  "/Users/suyoung/Documents/Git/BoostCamp/Sources/Students.swift": {
+    "dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.d",
+    "object": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swift.o",
+    "swiftmodule": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students~partial.swiftmodule",
+    "swift-dependencies": "/Users/suyoung/Documents/Git/BoostCamp/.build/debug/Grade_kim_su_young.build/Students.swiftdeps"
+  }
+}
